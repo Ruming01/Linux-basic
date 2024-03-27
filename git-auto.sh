@@ -1,5 +1,4 @@
 #!/bin/sh
-CommitName="none"
 git add .
 echo 'Commit Name : '
 read CommitName
