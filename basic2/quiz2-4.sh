@@ -1,7 +1,7 @@
 #!/bin/sh
 mkdir myDir
 touch myFile.txt
-mv myFile.txt myDir
-rm myDir/myfile.txt
+mv myFile.txt myDir/
+rm myDir/myFile.txt
 rmdir myDir
 exit 0
